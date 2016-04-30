@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+
+<link rel="stylesheet" href="himi.css"/>
+<title>
+SSC
+</title>
+<script type="text/javascript">
+var imagetracker='1';
+function blinkimage(){
+var img=document.getElementById('photochange');
+if(imagetracker=='1'){
+img.src="similarbackground.png";
+imagetracker='2';
+}
+else
+{ 
+img.src="unnamed.png";
+imagetracker='1';
+}
+
+}
+var timer=setInterval('blinkimage()',500);
+var imagetracker1='1';
+var imagetracker2='2';
+function chslimage(){
+var img1=document.getElementById('photochange1');
+var img2=document.getElementById('photochange2');
+if(imagetracker1=='1' || imagetracker2=='2'){
+img1.src="similarbackground.png";
+imagetracker1='3';
+img2.src="chsl1.png";
+imagetracker2='4';
+}
+else
+{ 
+img1.src="ssc1.jpg";
+imagetracker1='1';
+img2.src="similarbackground.png";
+imagetracker2='2';
+}
+
+}
+var timer1=setInterval('chslimage()',1000);
+var imagetracker3='1';
+var imagetracker4='2';
+function cglimage(){
+var img3=document.getElementById('photochange3');
+var img4=document.getElementById('photochange4');
+if(imagetracker3=='1' || imagetracker4=='2'){
+img3.src="similarbackground.png";
+imagetracker3='3';
+img4.src="cgl1.jpg";
+imagetracker4='4';
+}
+else
+{ 
+img3.src="ssc3.png";
+imagetracker3='1';
+img4.src="similarbackground.png";
+imagetracker4='2';
+}
+
+}
+var timer2=setInterval('cglimage()',1000);
+</script>
+</head>
+
+<body class="other_body">
+<div class="other_content">
+<h1 class="other_heading">STAFF SELECTION COMMISSION</h1>
+<img src="unnamed.png" id="photochange" width="300px" height="300px"/>
+<h2>EXAMS CONDUCTED BY SSC</h2>
+<div class="chsl">
+
+<h3 class="h3">CHSL</h3>
+
+<table>
+<tr>
+<td>
+<img src="ssc1.jpg"  id="photochange1" class="chsl_image" width="300px" height="240px"/>
+</td>
+<td>
+<img src="similarbackground.png" id="photochange2" width="300px" height="240px"/>
+</td>
+</tr>
+</table>
+
+<div class="detail">
+<p>
+       COMBINED HIGHER SECONDARY LEVEL(CHSL) is the exam conducted by staff selection commision(ssc)
+      .This Exam is conducted for the different post of Grade C .
+       DEO(Data Entry Operator),LDC(Lower Division Clerk).
+       Huge number of candidates apply for this exam and the competition is tough.
+       12th pass is the eligibility for these posts.
+       The post of Data operator undertake the job of processing data in government offices whereas the 
+       LDC have the job functions which include registration,maintenance,indexing and recording,typing,
+       comparing and preparation of various statements .
+</p>
+<br/>
+       </div>
+       <table border="1">
+       <tr>
+       <th>PART
+       </th>
+       <th>
+       SUBJECT
+       </th>
+       <th>
+       MAXIMUM MARKS
+       </th>
+       <th>
+       TIMING
+       </th>
+       <th>
+       TIMING FOR VH CANDIDATES 
+       </th>
+       </tr>
+       <tr>
+       <td>
+       I
+       </td>
+       <td>
+       General Intelligence(50 Questions)
+       </td>
+       <td>
+       50
+       </td>
+       <td rowspan="5">
+       2 Hours 
+       <p>10:00 A.M to 12:00 noon</p>
+       </td>
+       <td rowspan="5">
+       2 Hours 40 Minutes 
+       <p>10:00 A.M to 12:40 noon</p>
+       </td>
+       </tr>
+       <tr>
+       <td>
+       II
+       </td>
+       <td>English Language(Basic Knowledge)(50 Questions)
+       </td>
+       <td>
+       50
+       </td>
+       </tr>
+       <tr>
+       <td>
+       III
+       </td>
+       <td>
+       Quantitative Aptitude(Basic Arithmetic Skills)(50 Questions)
+       </td>
+       
+       <td>
+       50
+       </td>
+       </tr>
+       <tr>
+       <td>
+       IV
+       </td>
+       <td>
+       General Awareness(50 Questions)
+       </td>
+       
+       <td>
+       50
+       </td>
+       </tr>
+       
+        </table>
+       <p> V.H Stands For Visually Handicapped</p>
+       </div>
+      <div class="cgl">
+<h3 class="h3"> CGL</h3>
+<table>
+<tr>
+<td>
+<img src="ssc3.png" id="photochange3" Class="cgl_img"  width="300px" height="180px"/>
+</td>
+<td>
+<img src="similarbackground.png" id="photochange4"  width="300px" height="180px"/>
+</td>
+</tr>
+</table>
+
+
+<div class="detail">
+
+<p>
+       COMBINED GRADUATE LEVEL(CGL) is the exam conducted by staff selection 
+       commision(ssc).Graduation from any recognised University is the minimum educational
+       qualification .This exam is conducted for different central civil posts -Assistant/Inspector/
+       SI/Divisional Accountant/Junior Accountant/UDC/Tax Assistant/compiler.Selected candidates get 
+       jobs in departments of Central Secretariat Service/Intelligence Bureau/Ministry Of Railways
+       /Ministry Of External Affairs/Ministry Of Defence/CBI and many other government services.
+       CGL exam divided into three Tiers.
+</p>
+</div>
+
+
+
+<h3>    
+       Tier-1 
+</h3>
+<table BORDER="1">
+<tr>
+<th>
+SUBJECTS
+</th>
+<th>
+QUESTIONS
+</th>
+<th>
+MARKS
+</th>
+</tr>
+<tr>
+<td>
+ENGLISH
+</td>
+<td>
+50
+</td>
+<td>
+50
+</td>
+</tr>
+<tr>
+<td>
+MATHS
+</td>
+<td>
+50
+</td>
+<td>
+50
+</td>
+</tr>
+<tr>
+<td>
+G.K
+</td>
+<td>
+50
+</td>
+<td>
+50
+</td>
+</tr>
+<tr>
+<td>
+REASONING
+</td>
+<td>
+50
+</td>
+<td>
+50
+</td>
+</tr>
+</table>
+
+<h3>TIER II</h3>
+<table BORDER="1">
+<tr>
+<th>
+PAPER
+</th>
+<th>
+SUBJECTS
+</th>
+<th>
+QUESTIONS
+</th>
+<th>
+MARKS
+</th>
+</tr>
+<tr>
+<td>
+I
+</td>
+<td>
+ENGLISH
+</td>
+<td>
+200
+</td>
+<td>
+200
+</td>
+</tr>
+<tr>
+<td>
+II
+</td>
+<td>
+MATHS
+</td>
+<td>
+100
+</td>
+<td>
+200
+</td>
+</tr>
+</table>
+<h3>TIER III</h3>
+
+<table BORDER="1">
+<tr>
+<th>
+PAPER
+</th>
+<th>
+MARKS
+</th>
+</tr>
+<tr>
+<td>
+INTERVIEW
+</td>
+<td>
+100
+</td>
+</tr>
+</div>
+
+</table>
+</div>
+<div class="links">
+<a href="ssconline.nic.in" class="official_link">SSC OFFICIAL WEBSITE</a>
+<br/>
+<br/>
+<a href="ssconline2.gov.in" class="official_link">APPLY ONLINE</a>
+</div>
+</body>
+</html>

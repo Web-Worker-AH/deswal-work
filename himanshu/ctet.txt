@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="otherpages.css"/>
+<title>
+CTET
+</title>
+<script type="text/javascript">
+
+var imagetracker1='1';
+var imagetracker2='2';
+var imagetracker3='3';
+var imagetracker4='4';
+
+function changeimage1()
+{
+var img1=document.getElementById('photochange1');
+var img2=document.getElementById('photochange2');
+var img3=document.getElementById('photochange3');
+var img4=document.getElementById('photochange4');
+if(imagetracker1=='1' && imagetracker2=='2' && imagetracker3=='3' && imagetracker4=='4' ){
+img1.src="similarbackground.png";
+img2.src="ctet.jpg";
+img3.src="similarbackground.png";
+img4.src="similarbackground.png";
+imagetracker1='5';
+imagetracker2='6';
+imagetracker3='7';
+imagetracker4='8';
+
+}
+else if(imagetracker1=='5' && imagetracker2=='6' && imagetracker3=='7' && imagetracker4=='8' )
+{
+img1.src="similarbackground.png";
+img2.src="similarbackground.png";
+img3.src="ctet.jpg";
+img4.src="similarbackground.png";
+imagetracker1='9';
+imagetracker2='10';
+imagetracker3='11';
+imagetracker4='12';
+}
+else if(imagetracker1=='9' && imagetracker2=='10' && imagetracker3=='11' && imagetracker4=='12' ){
+img1.src="similarbackground.png";
+img2.src="similarbackground.png";
+img3.src="similarbackground.png";
+img4.src="ctet.jpg";
+imagetracker1='13';
+imagetracker2='14';
+imagetracker3='15';
+imagetracker4='16';
+}
+else {
+img1.src="ctet.jpg";
+img2.src="similarbackground.png";
+img3.src="similarbackground.png";
+img4.src="similarbackground.png";
+imagetracker1='1';
+imagetracker2='2';
+imagetracker3='3';
+imagetracker4='4';
+}
+
+
+}
+var timer=setInterval('changeimage1()',500);
+var imagetracker5='17';
+var imagetracker6='18';
+var imagetracker7='19';
+var imagetracker8='20';
+function changeimage()
+{
+var img1=document.getElementById('photochange5');
+var img2=document.getElementById('photochange6');
+var img3=document.getElementById('photochange7');
+var img4=document.getElementById('photochange8');
+if(imagetracker5=='17' && imagetracker6=='18' && imagetracker7=='19' && imagetracker8=='20' ){
+img1.src="ctet3.jpg";
+img2.src="ctet1.jpg";
+img3.src="ctet4.jpg";
+img4.src="ctet2.jpg";
+imagetracker5='21';
+imagetracker6='22';
+imagetracker7='23';
+imagetracker8='24';
+
+}
+else if(imagetracker5=='21' && imagetracker6=='22' && imagetracker7=='23' && imagetracker8=='24' )
+{
+img1.src="ctet4.jpg";
+img2.src="ctet3.jpg";
+img3.src="ctet2.jpg";
+img4.src="ctet1.jpg";
+imagetracker5='25';
+imagetracker6='26';
+imagetracker7='27';
+imagetracker8='28';
+}
+else if(imagetracker5=='25' && imagetracker6=='26' && imagetracker7=='27' && imagetracker8=='28' ){
+img1.src="ctet2.jpg";
+img2.src="ctet4.jpg";
+img3.src="ctet1.jpg";
+img4.src="ctet3.jpg";
+imagetracker5='29';
+imagetracker6='30';
+imagetracker7='31';
+imagetracker8='32';
+}
+else {
+img1.src="ctet1.jpg";
+img2.src="ctet2.jpg";
+img3.src="ctet3.jpg";
+img4.src="ctet4.jpg";
+imagetracker5='17';
+imagetracker6='18';
+imagetracker7='19';
+imagetracker8='20';
+}
+
+
+}
+var intervaltimer=setInterval('changeimage()',2000);
+
+</script>
+</head>
+<body class="other_body">
+<div class="other_content">
+
+<h1 class="other_heading">CENTRAL TEACHER ELIGIBILITY TEST</h1>
+
+
+<div class="detail">
+<p>The test is mandatory for getting teacher jobs in government schools from Class I to VIII.
+paper-I is meant for teachers opting for Class I to V and paper-II for Class VI to VIII.
+It is conducted by both Central government and state government in India.Most states conduct there own TET.
+</p>
+<table>
+<tr>
+<td>
+<img src="similarbackground.png" id="photochange1" width="320px" height="180px"/>
+</td>
+<td>
+<img src="similarbackground.png" id="photochange2" width="320px" height="180px"/>
+</td>
+<td>
+<img src="similarbackground.png" id="photochange3" width="320px" height="180px"/>
+</td>
+<td>
+<img src="similarbackground.png" id="photochange4" width="320px" height="180px"/>
+</td>
+</tr>
+</table>
+<h1 class="sub_headings">ELIGIBILITY FOR CTET</h1>
+<p>The candidates having the following minimum educational qualification are eligible for appearing in CTET</p>
+<h1 class="sub_headings">
+Minimum Educational Qualification for becoming Teacher for Classes I to V 
+(primary stage):
+</h1>
+<p>Senior Secondary(or its equivalent)with at least 50% marks and passed or appearing in final year of 
+2-year Diploma in Elementary Education(by whatever known)
+<p> or</p>
+</p>
+<p>Senior Secondary(or its equivalent)with at least 45% marks and passed or appearing in final year of 
+2-year Diploma in Eementary Education (by whatever known),in accordance with NCTE 
+(Recognition Norms and Procedure),Regulations,2002.
+</p>
+<p> or</p>
+<p>Senior Secondary(or its equivalent)with at least 50% marks and passed or appearing in final year of 
+4-year Bachelor of Eementary Education(B.EL.ED).
+<p> or</p>
+<p>Senior Secondary(or its equivalent)with at least 50% marks and passed or appearing in final year of 
+2-year Diploma in Education(Special education)*.</p>
+<p> or</p>
+<p>Graduation and passed or appearing in final year of 2-year Diploma in Elementary Education(by whatever name known).
+</p>
+<table>
+<tr>
+<td>
+<img src="ctet1.jpg" id="photochange5" height="200px" width="300px" />
+</td>
+<td>
+<img src="ctet2.jpg"  id="photochange6" height="200px" width="300px" />
+ </td>
+ </tr>
+ <tr>
+<td>
+<img src="ctet3.jpg" id="photochange7" height="200px" width="300px"/>
+</td>
+<td>
+<img src="ctet4.jpg"  id="photochange8" height="200px" width="300px"/>
+ </td>
+ </tr>
+ </table>
+<h1 class="sub_headings">
+
+Minimum Educational Qualification 
+for becoming Teacher for Classes VI to VIII(elementary stage):
+</h1>
+<p>
+Graduation and passed or appearing in final year of 2-year Diploma in Elementary Education(by whatever name known).
+</p>
+<p> or</p>
+<p>
+Graduation with at least 50% marks and passed or appearing in 1-year Bachelor in Education(B.ED).
+</p>
+<p> or</p>
+<p>Graduation with at least 50% marks and passed or appearing in 1-year Bachelor in Education(B.ED) in accordance
+ with the NCTE(Recognition Norms and Procedure) Regulations Issued from time to time in this regard.</p>
+<p> or</p>
+<p>
+senior seconadary (or its equivalent) with  at least 50% marks and passed or appearing in final year 
+of 4-year Bachelor in Elementary Education (B.EL.ED).
+</p>
+<h4 class="sub_headings">Note:</h4>
+<p>Relaxation up to 5% inthe qualifying marks in the minimum Educational Qualification for eligibility shall 
+be allowed to the candidates belonging to reserved categories,such as ST/SC/OBC/Differently abled.
+</p>
+</div>
+<div class="links">
+<a href="www.ctet.nic.in" class="official_link">CTET OFFICIAL WEBSITE</a>
+</div>
+</body>
+</html>

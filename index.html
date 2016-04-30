@@ -1,0 +1,138 @@
+<!DOCYTPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>www.darkhorse.org</title>
+            <link href="style.css" rel="stylesheet" type="text/css">
+            <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+            <script src="https://maps.googleapis.com/maps/api/js"></script>
+            <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        </head>
+        <body>
+            <img id="first" src="images/first_image.jpg"/>
+            <img class="head" src="images/name.png"/>
+            <header class="main_header">
+                <ul>
+                <li> <a href="">  ABoUT US  </a> </li>
+                <li> <a href="">  COURSES   </a>
+                <ul>
+                <li><a href="ssc.html"> SSC     </a></li>
+                <li><a href="delhipolice.html"> Delhi Police </a></li>
+                <li><a href="railway.html"> RAILWAYS </a></li>
+                <li><a href="ctet.html"> CTET    </a></li>
+                </ul>
+                </li>
+                <li> <a href="">  STUDENT   </a>
+                <ul>
+                <li><a href="">   BATCH ID    </a></li>
+                <li><a href="">   FEES        </a></li>
+                <li><a href="">   TIME TABLE  </a></li>
+                <li><a href="">   NOTICE      </a></li>
+                </ul>
+                </li>
+                <li> <a href="">  GALLERY    </a></li>
+                <li> <a href="contactus.html">  CONTACT  </a></li>
+            
+            </ul>
+            </header>
+
+            <div class="Key-points">
+                <h1><br>Why Join Us?</h1>
+                <ul>
+                    <li>Coaching is conducted by well experienced and trained faculities.</li>
+                    <li>Excellent in concept creation</li>
+                    <li>Expert teachers  help students with short cut methods for exams.</li>
+                    <li>Here we create sharp mind.</li>
+                    <li>Here we create unexpected winners.</li>
+                </ul>
+                
+                
+            </div>
+            <section>
+                <h1 style="position: relative;top: 9px; font-size:70px; font-weight: bold;position: relative;top:-10px">COURSES</h1>
+                <img src="images/courses.png"/>
+            </section>
+            <figure>
+            <img src="images/Success.png" width="373" height="306"/>
+            </figure>
+            <div id="images_1">
+            <img  src="images/images-2.png"/>
+            <img  src="images/images-31.png"/>
+            <img id="img_3"src="images/railways.png"/>
+            </div>
+            <div id="main_logo">
+                <img src="images/logo.png"/>
+            </div>
+        <div class="reveal_top" onmousemove="remove()" ></div>
+        <div>
+            <img id="student_1" src="images/1.png"/>
+        </div>
+        <div id="star">
+            <img src="images/star.png"/>
+        </div>
+     
+        
+        <div class="Address">
+            <p><img src="images/location-icon.png"/>Get in touch</p><br>
+            <p>Dark Horse ,Dwarka Mor Metro Pillar-781<br></p>
+            <p> near Grover Sweet ND-110059<br></p>
+        </div>
+        <div class="Contact">
+            <p><img src="images/phone.png"/>Contact</p><br>
+            <p>8505895653,9069367181</p>
+        </div>
+        <div class="Email">
+            <p><img src="images/email.png"/>Email Us</p><br>
+            <p>deshwal.rahul007@gmail.com</p>
+        </div>
+        <div class="sign">
+            <a href="https://docs.google.com/forms/d/1RO4sSfzn7J5YwxGQmiwAiM93rsgxuHOZ5qi0dTz76o0/viewform?c=0&w=1" target="_blank" title="click for enquiry"><img src="images/sign.png"/></a>
+            <p>Enquiry</p>
+        </div>
+        <div id="map"></div>
+
+            <script>
+            var myCenter = new google.maps.LatLng(28.6193651,77.033148);
+            var mapCanvas = document.getElementById("map");
+            var mapOptions = {
+                center: new google.maps.LatLng(28.6193651,77.033148), zoom: 20,
+               }
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            var marker = new google.maps.Marker({
+                position:myCenter,
+        animation:google.maps.Animation.BOUNCE
+            });
+            marker.setMap(map);
+            </script>
+
+        </script>
+        <div id="myNav" class="overlay">
+            <a href="#" class="closebtn" onclick="closeNav()">X</a>
+            <div class="overlay-content">
+            <a href="#" target="_blank">COURSES</a>
+            <a href="ssc.html" target="_blank">SSC</a>
+            <a href="delhipolice.html" target="_blank">POLICE</a>
+            <a href="railways.html" target="_blank">RAILWAY</a>
+            <a href="ctet.html" target="_blank">CTET</a>
+            <a href="contactus.html" target="_blank">Contact</a>
+           <a href="https://docs.google.com/forms/d/1RO4sSfzn7J5YwxGQmiwAiM93rsgxuHOZ5qi0dTz76o0/viewform?c=0&w=1" target="_blank" title="click for enquiry">Enquiry</a>
+            </div>
+        </div>
+        <span style="cursor: pointer;" onclick="openNav()"><img src="images/side.png"/></span>
+        <h1 id="menu">Menu</h1>
+        </div>
+            <footer>
+                <span class="foot"><img src="images/copy.png"/>Copywrite 2016 Dark Horse.created by Webbers </span>
+            </footer>
+            <div class="images"><img src="images/gandhi.png"></div>
+            <div class="images2"><img src="images/gandhi2.png"></div>
+            <div class="images3"><img src="images/gandhi.png"></div>
+        <div class="line1"><img src="images/line.png"/></div>
+        <div class="line2"><img src="images/line.png"/></div>
+        <div class="line3"><img src="images/line.png"/></div>
+        <div class="line4"><img src="images/line.png"/></div> 
+        <script src="darkhorse.js">
+            </script>
+        
+        </body>
+    </html>
